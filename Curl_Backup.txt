@@ -1,0 +1,8 @@
+curl -k -L -X POST 'https://10.250.146.100:9025/yesadmin/api/v1/user/login' \
+-H 'Content-Type: application/json' \
+-d '{"username": "LAV1053172","password": "Lakshmi$123" }'
+
+ 
+curl -k -L -X POST 'https://10.250.146.100:9025/yesadmin/api/v1/iris/blockUnblockCust' \
+-H 'Content-Type: application/json' \
+-d '{"customerIDs": ["330","239"], "operationType": "A", "token": "Bearer 9f07104c-4d68-4f3d-a4c4-0ff44cd8a164" }
